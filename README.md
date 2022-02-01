@@ -1,2 +1,3 @@
-# dark-light
-Demo Dark and Light Mode
+# Mentor Intensive Training
+
+Website for demo Mentor Intensive Training.
