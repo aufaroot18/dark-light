@@ -1,0 +1,64 @@
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 90vh;
+  background-color: rgb(248 250 252);
+  color: rgb(15 23 42);
+}
+
+main {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile__name {
+  font-size: 3.052rem;
+}
+
+.profile__title {
+  font-size: 2.441rem;
+}
+
+.profile__body {
+  font-size: 1.25rem;
+}
+
+.social {
+}
+
+.social__list {
+  list-style: none;
+  display: flex;
+}
+
+.social__item {
+  padding: 0 1rem;
+}
+
+.social__item a {
+  color: #0ea5e9;
+}
+
+.theme {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.dark {
+  background-color: rgb(15 23 42);
+  color: #fff;
+}
+
+.light {
+}
